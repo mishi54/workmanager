@@ -59,7 +59,7 @@ async function del(taskId){
             <p className="font-normal">{item.content}</p>
             <p className="font-normal">Status:{item.status}</p>
             <p className="text-right">
-              Author: <span className="font-bold">{context.user.name}</span>
+              Author: <span className="font-bold">{context.user?.name}</span>
             </p>
           </div>
         </div>
